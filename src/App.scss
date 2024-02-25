@@ -125,3 +125,14 @@ ul {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0; /* Убрано отступирование сверху */
+  }
+
+  .containerGame {
+    width: 100%; /* Изменено на 100% для занимания всей ширины экрана */
+    border-radius: 0; /* Убраны скругления углов */
+  }
+}
