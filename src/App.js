@@ -31,9 +31,9 @@ function Result({ correct }) {
       <h2>
         Вы отгадали {correct} ответа из {quiz.length}
       </h2>
-      <a href="/">
-        <button className="resultButton">Попробовать снова</button>
-      </a>
+      {/* <a href="/"> */}
+      <button className="resultButton">Попробовать снова</button>
+      {/* </a> */}
     </div>
   );
 }
